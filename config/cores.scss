@@ -1,0 +1,14 @@
+// dependecias desse Aqv
+    @use 'variables';
+
+    // Cores buttons 
+    
+    body {
+        background-color: #fff;
+        header  {
+            background-color:variables.$CorPrincipal;
+        }
+        .product-button {
+            background-color:variables.$CorButton;
+        }
+    }

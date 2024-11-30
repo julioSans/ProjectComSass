@@ -1,0 +1,9 @@
+// dependencias do arquivo 
+@use '../config/fonts';
+// reset do site 
+  * {
+    box-sizing: border-box;
+    font-family:fonts.$fontePai;
+    margin: 0;
+    padding: 0;
+  }

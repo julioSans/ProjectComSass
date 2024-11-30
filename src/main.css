@@ -1,0 +1,132 @@
+body {
+  background-color: #fff;
+}
+body header {
+  background-color: #182C61;
+}
+body .product-button {
+  background-color: #44bd32;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .container {
+  max-width: 100%;
+  padding: 16px 0;
+  display: flex;
+  position: sticky;
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+}
+header .container .container {
+  max-width: 767px;
+  width: 100%;
+  margin: auto 0;
+}
+header .container .branding {
+  margin-left: 10px;
+}
+header .container li, header .container a {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #f5f6fa;
+  list-style: none;
+}
+header .container .menu {
+  display: flex;
+}
+header .container .menu li {
+  font-weight: bold;
+  margin-left: 24px;
+}
+header .container .menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 765px) {
+  .menu {
+    margin-left: 28px;
+  }
+}
+.product-button {
+  display: block;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f5f6fa;
+  cursor: pointer;
+}
+.product-button:hover {
+  background-color: #466f40;
+}
+
+section {
+  padding: 54px 20px;
+}
+section li {
+  list-style: none;
+}
+section .products {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 32, 66%);
+  grid-column: 1%;
+  grid-row: 4%;
+  width: 100%;
+}
+section .products img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+section .product-item p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section .product-item {
+  margin-bottom: 40px;
+}
+section .product-item h4 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+    display: flex;
+  }
+  .products {
+    grid-template-columns: repeat(2, 48.5);
+    grid-column: 4%;
+  }
+}
+@media screen and (max-width: 767px) {
+  section {
+    max-width: 765px;
+  }
+  section .container {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

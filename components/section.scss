@@ -1,0 +1,53 @@
+//dependencia
+
+section {
+  padding: 54px 20px;
+  li {
+    list-style: none;
+  }
+  .products {
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32,66%);
+    grid-column: 1%;
+    grid-row: 4%;
+    width: 100%;
+  }
+  .products img {
+    width:100% ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .product-item p  {
+    font-size: 18px;
+    margin-bottom:20px
+  } 
+  .product-item {
+    margin-bottom: 40px;
+  }
+  .product-item h4 {
+    font-size: 20px;
+  }
+}
+
+// Responsividade de telas 
+  @media screen and (max-width:1023px) {
+    .container {
+      max-width: 80%;
+      display: flex;
+    }
+    .products {
+      grid-template-columns: repeat(2,48.5 );
+      grid-column: 4%;
+    }
+  }
+  @media screen and (max-width:767px) {
+    section {
+      max-width: 765px;
+      .container {
+        max-width: 100%;
+        display: block;
+      }
+    }
+  }
+

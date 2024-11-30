@@ -1,0 +1,48 @@
+//dependencias desse arquivo 
+  @use '../config/cores';
+  @use '../config/variables'; 
+
+// estilizando o meu header 
+
+header .container {
+  max-width: 100%;
+  padding: 16px 0;
+  display: flex; 
+  position:sticky;
+  left: 0;
+  top:0; 
+  justify-content: space-between;
+  .container {
+    max-width: 767px;
+    width: 100%;
+    margin: auto 0;
+  }
+  .branding {
+    margin-left:10px ;
+  }
+
+  li, a {
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: variables.$CorSecundaria;
+    list-style: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .menu li {
+    font-weight: bold;
+    margin-left: 24px;
+  }
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width:765px) {
+  .menu{
+    margin-left: 28px;
+  }
+}
