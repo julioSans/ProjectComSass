@@ -1,7 +1,6 @@
 //dependencias desse arquivo 
-  @use '../config/cores';
-  @use '../config/variables'; 
-
+  @use './src/config/_cores';
+  @use './src/config/_variables';
 // estilizando o meu header 
 
 header .container {

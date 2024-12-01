@@ -1,18 +1,18 @@
 // Estrutura do projeto
 //<main.scss>
     // Configuracoes
-      @use 'config/cores';
-      @use 'config/fonts';
-      @use 'config/functions';
-      @use 'config/variables';
+      @use './src/config/cores';
+      @use './src/config/fonts';
+      @use './src/config/functions';
+      @use './src/config/variables';
 
     //base
-      @use 'base/global';
-      @use 'base/reset';
+      @use './src/base/_global';
+      @use './src/base/_reset';
 
     //Componentes
-      @use 'components/header';
-      @use 'components/footer';
-      @use 'components/button';
-      @use 'components/section'; 
+      @use './src/components/components/header';
+      @use './src/components/components/footer';
+      @use '.src/components/_button';
+      @use '.src/components/_section'; 
 //<main.scss/>
